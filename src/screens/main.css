@@ -1,0 +1,172 @@
+.container {
+    float: left;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    max-width: 1000px;
+    padding-top: 50px;
+    /* height: 500px;
+    background-color: aqua; */
+}
+
+.sec1, .sec2 {
+    width: 100%;
+    float: left;
+    /* background-color: aqua; */
+    margin-top: 25px;
+}
+.nav0 {
+    width: 500px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.nav0 input {
+    width: calc(100% - 10px);
+    padding: 10px 20px;
+    border-radius: 15px;
+    outline: none;
+    /* border: 1px solid rgb(170, 170, 170); */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none;
+}
+
+.nav1 {
+    float: left;
+    width: 100%;
+    margin-top: 25px;
+    /* background-color: aqua; */
+}
+
+.nav1 span select {
+    margin-left: 20px;
+}
+
+.card0 {
+    float: left;
+    width: 100%;
+    background-color: rgb(255, 206, 142);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.card0:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.card01, .card02 {
+    float: left;
+    width: 100%;
+}
+.card01 {
+    padding: 5px 15px;
+    padding-top: 13px;
+    font-size: 20px;
+}
+.card02 {
+    padding: 5px 15px;
+    padding-bottom: 13px;
+}
+
+.card021, .card022, .card023 {
+    float: left;
+    width: calc(33.33% - 20px);
+    font-size: 15px;
+    /* background-color: blue; */
+}
+.card022 {
+    text-align: center;
+}
+.card023 {
+    text-align: right;
+}
+
+/* warehouse details */
+.wd0 {
+    float: left;
+    width: 100%;
+}
+
+.wd0 button {
+    float: right;
+    margin-right: 30px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background-color: blue;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+.wd01 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(78, 78, 78);
+}
+
+.wd011 {
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 50%;
+    padding: 10px 10px;
+    transform: translateX(-50%);
+}
+
+.wd0111 {
+    float: left;
+    width: 100%;
+    margin-bottom: 23px;
+    /* background-color: aqua; */
+}
+
+.wd0111 button {
+    float: right;
+    /* color: white; */
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+
+.wd0113 button {
+    float: right;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background-color: blue;
+    padding: 7px 15px;
+    color: white;
+    border-radius: 5px;
+}
+
+.wd0112input {
+    float: left;
+    width: 100%;
+    margin-top: 4px;
+}
+
+.wd0112 select {
+    float: left;
+    width: 100%;
+}
+
+.checkBoxEdit {
+    /* width: 0; */
+    float: left;
+    background-color: aqua;
+    margin-left: 0;
+}
+
+.wd0112 {
+    float: left;
+    width: 90%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    /* background-color: aqua; */
+    margin-bottom: 20px;
+}
